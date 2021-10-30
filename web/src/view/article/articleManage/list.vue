@@ -77,7 +77,7 @@
         <el-table-column align="left" label="cateId字段" prop="cateId" width="120">
           <template #default="scope">{{ formatBoolean(scope.row.cateId) }}</template>
         </el-table-column>
-        <el-table-column align="left" label="数据状态：0删除，1正常" prop="dataState" width="120">
+        <el-table-column align="left" label="数据状态" prop="dataState" width="120">
           <template #default="scope">{{ formatBoolean(scope.row.dataState) }}</template>
         </el-table-column>
         <el-table-column align="left" label="img字段" prop="img" width="120" />
@@ -92,7 +92,7 @@
           <template #default="scope">{{ formatBoolean(scope.row.ordid) }}</template>
         </el-table-column>
         <el-table-column align="left" label="orig字段" prop="orig" width="120" />
-        <el-table-column align="left" label="分销机构（发布的时候可指定全部或者具体分行、子机构的人员能看到） 0全部" prop="platformId" width="120" />
+        <el-table-column align="left" label="分销机构" prop="platformId" width="120" />
         <el-table-column align="left" label="seoDesc字段" prop="seoDesc" width="120" />
         <el-table-column align="left" label="seoKeys字段" prop="seoKeys" width="120" />
         <el-table-column align="left" label="seoTitle字段" prop="seoTitle" width="120" />
